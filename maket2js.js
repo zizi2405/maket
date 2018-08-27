@@ -67,16 +67,11 @@
             texariaH[i].style.color = "";
             }
 
-            // if(this.classList.contains('textaria__bars_box_active')){
-            //     hideText[index].style.height = "0";
-            //     this.classList.remove('textaria__bars_box_active');
-            // }
+          
+            this.classList.add('textaria__bars_box_active');
+            hideText[index].style.height = heightP.height;
+            texariaH[index].style.color = "white";
     
-            // else {
-                this.classList.add('textaria__bars_box_active');
-                hideText[index].style.height = heightP.height;
-                texariaH[index].style.color = "white";
-            // }
           }
      
 }());
